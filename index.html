@@ -23,10 +23,10 @@
     <script>
         $().ready(function () {
             $("#ex1>input").mouseover(function () {
-                $(".hint").css("display", "block")
+                $("#ex1>.hint").css("display", "block")
             });
             $("#ex1>input").mouseout(function () {
-                $(".hint").css("display", "none");
+                $("#ex1>.hint").css("display", "none");
             });
         });
     </script>
@@ -282,6 +282,7 @@
             });
         });
     </script>
+
 
 </body>
 

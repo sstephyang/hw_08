@@ -3,8 +3,7 @@
   margin-left: 1em;
   position:relative;
 }
-
-#ex1>hint{
+#ex1>.hint{
   border: 1px solid #eee;
   width: 120px;
   padding: 10px;
