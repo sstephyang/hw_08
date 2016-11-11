@@ -4,7 +4,7 @@
   position:relative;
 }
 
-.hint{
+#ex1>hint{
   border: 1px solid #eee;
   width: 120px;
   padding: 10px;
@@ -57,21 +57,21 @@ p{
 #ex4{
     margin-left: 1em;
 }
-.go-board{
+#ex4 .go-board{
   font-size: 20px;
   background-image: url('https://kevinljw.github.io/pic-pool/board-9-word2.gif');
   width: 20em;
   height: 20em;
   background-size: cover;
 }
-.row{
+#ex4 .row{
   margin-left:.75em;
 }
-.row:first-child .col{
+#ex4 .row:first-child .col{
   margin-top:.75em;
 }
 
-.col{
+#ex4 .col{
   width:1.5em;
   height:1.5em;  
   display:inline-block;
@@ -81,11 +81,11 @@ p{
   visibility: visible;
   border: 1px solid transparent;
 } 
-.white{
+#ex4 .white{
   border: 1px solid #ccc;
   background: linear-gradient(#fff,#eee);
 }
-.black{
+#ex4 .black{
   border: 1px solid #000;  
   background: linear-gradient(#777, #000);
 }
